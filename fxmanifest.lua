@@ -12,7 +12,9 @@ client_scripts {
 }
 
 shared_scripts {
-  'config.lua'
+  '@qb-core/shared/locale.lua',
+  '@qb-skillz/locales/en.lua',
+  'config.lua',
 }
 
 lua54 'yes'
