@@ -13,7 +13,7 @@ client_scripts {
 
 shared_scripts {
   '@qb-core/shared/locale.lua',
-  '@qb-skillz/locales/en.lua',
+  '@qb-skillz/locales/sv.lua',
   'config.lua',
 }
 

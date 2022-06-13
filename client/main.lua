@@ -4,13 +4,13 @@ local resting = false
 
 local function CheckTraining()
 	if resting == true then
-        QBCore.Functions.Notify('You\'re resting', 'primary')
+        QBCore.Functions.Notify(Lang:t('notify.resting'), 'primary')
 		resting = false
 		Wait(Config.RestingTime * 1000)
 		training = false
 	end
 	if resting == false then
-        QBCore.Functions.Notify('You can now do exercise again', 'success')
+        QBCore.Functions.Notify(Lang:t('notify.startexercise'), 'success')
 	end
 end
 --------------------------------------------------------------------------------------------------------------------
